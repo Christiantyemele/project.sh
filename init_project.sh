@@ -33,6 +33,8 @@ func() {
 		echo "a README file has been created showing how you should proceed"
 	
 		touch README > /dev/null
+		cat "to execute the script use" > README
+		cat "bash +x /path to script" >> README
 	        
                
                interface
